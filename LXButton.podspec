@@ -1,4 +1,4 @@
- Pod::Spec.new do |s|
+Pod::Spec.new do |s|
 s.name = 'LXButton'
 s.version = '0.0.1'
 s.license = 'MIT'
