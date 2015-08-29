@@ -176,7 +176,7 @@ dispatch_sync(dispatch_get_global_queue(0, 0), block);\
 }
 - (NSString *)keyForState:(UIControlState)state
 {
-    return [NSString stringWithFormat:@"state_%d", state];
+    return [NSString stringWithFormat:@"state_%lu", (unsigned long)state];
 }
 #pragma mark - colors
 - (NSMutableDictionary *)colors
