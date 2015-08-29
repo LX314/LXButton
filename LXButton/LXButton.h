@@ -27,7 +27,7 @@
 }
 @property (nonatomic,retain)UIColor *disabledColor;
 
-+ (instancetype)buttonWithType:(UIButtonType)buttonType;
+//+ (instancetype)buttonWithType:(UIButtonType)buttonType;
 
 - (void)addEvent:(void(^)(id sender))handle forControlEvents:(UIControlEvents)event;
 
