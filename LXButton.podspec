@@ -6,7 +6,7 @@ s.summary = 'This is a custom button ,otherwise,here also has some useful catego
 s.homepage = 'https://github.com/LX314/LXButton'
 s.author = { 'Lucky' => 'lx314333@gmail.com' }
 s.source = { :git => 'https://github.com/LX314/LXButton.git', :tag => s.version.to_s }
-s.platform = :ios ,'4.3'
+s.platform = :ios ,'6.0'
 s.source_files = 'LXButton/*'
 s.requires_arc = true 
 end
